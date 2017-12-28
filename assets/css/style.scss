@@ -31,11 +31,19 @@ video { display: block; }
 
 //For mobile
 @media screen and (max-device-width: 800px) {
+	body{
+		background-color: rgba(212, 210, 201, .5);
+	}
     html {
-         background: url(/assets/video-wallpaper/img/Cassette_Tape.jpg) #000 no-repeat center center fixed;
+         background: url(/assets/video-wallpaper/img/Cassette_Tape.jpg) no-repeat center center fixed;
     }
     #bgvid {
         display: none;
+    }
+    header{
+    	h1, img{
+    		text-align: center;
+    	}
     }
 }
 
