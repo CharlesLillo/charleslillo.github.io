@@ -16,7 +16,7 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(/assets/video-wallpaper/img/Cassette_Tape.jpg) no-repeat;
+    background: url(/assets/video-wallpaper/img/Cassette_Tape.jpg);
     background-size: cover; 
     opacity: .6;
     pointer-events: none;
@@ -35,7 +35,7 @@ video { display: block; }
 		background-color: rgba(212, 210, 201, .5);
 	}
     html {
-         background: url(/assets/video-wallpaper/img/Cassette_Tape.jpg) no-repeat center center fixed;
+         background: url(/assets/video-wallpaper/img/Cassette_Tape.jpg) center center;
     }
     #bgvid {
         display: none;
@@ -44,6 +44,9 @@ video { display: block; }
     	h1, img{
     		text-align: center;
     	}
+    }
+    section{
+    	border: none;
     }
 }
 
