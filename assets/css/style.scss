@@ -30,7 +30,7 @@ body, h2, h3{
 video { display: block; }
 
 //For mobile
-@media screen and (max-device-width: 800px) {
+@media print, screen and(max-width: 960 px) {
 	body{
 		background-color: rgba(212, 210, 201, .5);
 	}
